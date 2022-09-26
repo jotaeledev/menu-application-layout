@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/menu-application-layout/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Menu UI</title>
+    <script type="module" crossorigin src="/menu-application-layout/assets/index.74d163d3.js"></script>
+    <link rel="stylesheet" href="/menu-application-layout/assets/index.ab4112ae.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="w-full flex-col flex md:flex-row md:justify-between space-y-10 mb-12 h-28">
+        <h1 class="flex text-4xl font-bold">
+          <span>Menu</span>
+          <span class="text-amber-400">UI</span>
+        </h1>
+        
+        <label for="search" class="flex relative bg-gray-200 rounded h-fit px-2 cursor-text">
+          <div class="flex justify-center items-center">
+            <img class="pointer-events-none w-4 h-4" src="/menu-application-layout/assets/search.10fbfead.svg" alt="puzzleCube" />
+          </div>
+          <input
+          id="search"
+          type="text"
+          class="py-1 px-2.5 bg-gray-200 text-gray-500 rounded-r-lg h-fit border-transparent focus:border-transparent ring-0 focus:outline-none"
+          placeholder="Search"
+        />
+     </label>
+      </header>
+      <div class="flex">
+        <aside id="sidebar" class="hidden pt-10 px-2 md:pl-2 md:pt-0 bg-white top-0 left-0 h-full md:flex flex-1 flex-col fixed md:bg-transparent md:top-[112px] md:h-[calc(100%-112px)] justify-between w-56 ">
+          <nav class="space-y-11">
+            <div class="flex flex-col">
+              <a class="p-3 flex space-x-3 hover:text-amber-500" href="#">
+                <img src="/menu-application-layout/assets/puzzleCube.335f35af.svg" alt="puzzleCube" />
+                <span>Dashboard</span>
+              </a>
+              <a class="p-3 flex space-x-3 bg-amber-400 rounded-lg" href="#">
+                <img src="/menu-application-layout/assets/foodPizza.5462a805.svg" alt="foodPizza" /> 
+                <span>Food & Drink</span>
+                </a>
+              <a class="p-3 flex space-x-3 hover:text-amber-500" href="#">
+                <img src="/menu-application-layout/assets/mail.9d4393ee.svg" alt="mail" />
+                <span>Messages</span>
+              </a>
+              <a class="p-3 flex space-x-3 hover:text-amber-500" href="#">
+                <img src="/menu-application-layout/assets/print.6336d069.svg" alt="print" />
+                <span>Bills</span>
+              </a>
+              <a class="p-3 flex space-x-3 hover:text-amber-500" href="#">
+                <img src="/menu-application-layout/assets/settings.d23db04a.svg" alt="settings" />
+                <span>Settings</span>
+              </a>
+            </div>
+            <div>
+              <span class="ml-12 text-sm text-gray-400 mb-1 block">Other</span>
+              <a class="p-3 flex space-x-3 hover:text-amber-500" href="#">
+                <img src="/menu-application-layout/assets/bell.f4ba86b5.svg" alt="bell" />
+                <span>Bills</span>
+              </a>
+              <a class="p-3 flex space-x-3 hover:text-amber-500" href="#">
+                <img src="/menu-application-layout/assets/accessibility.3edf5a36.svg" alt="accessibility" />
+                <span>Settings</span>
+              </a>
+            </div>
+          </nav>
+          <div class="absolute bottom-1 flex flex-col items-center w-full space-y-4 mb-10">
+            <img class="h-[70px] w-[70px]" src="/menu-application-layout/assets/profile.9d02c1ad.png" alt="profile">
+            <div class="flex flex-col items-center space-y-2 md:shadow-lg px-11 py-3 rounded-2xl">
+              <span class="font-bold">Teresa López</span>
+              <span class="text-xs text-gray-400">Waiter</span>
+              <a class="text-xs font-semibold bg-gray-200 px-9 py-2 rounded-md whitespace-nowrap"  href="#">Open profile</a>
+            </div>
+          </div>
+        </aside>
+        <main class="flex-1 md:ml-52 px-0 md:px-20 h-full md:h-[calc(100vh-200px)] overflow-auto py-2">
+          <div class="flex items-center space-x-5">
+            <h2 class="text-4xl font-bold">Food</h2>
+            <img class="h-[58px] w-[58px] rounded-xl" src="/menu-application-layout/assets/menu3.63ab2598.jpg" alt="food">
+          </div>
+          <div class="grid grid-cols-1 xs:grid-cols-1 sm:grid-cols-2  md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 mt-14 gap-y-3	md:gap-4">
+            <div>
+              <div class="flex flex-col items-center space-y-2 shadow-xl  min-w-[224px] py-5 rounded-2xl border border-gray-100 hover:-translate-y-2 transition-transform cursor-pointer">
+                <div class="h-[150px] w-[150px] bg-cover bg-no-repeat rounded-full" style="background-image: url(/menu-application-layout/assets/menu7.4477e0d6.jpg)"></div>
+                <span class="text-xl">Hamburger</span>
+                <span class="text-xs text-gray-400">250g</span>
+                <span class="text-2xl font-semibold text-amber-400">7.50€</span>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center space-y-2 shadow-xl  min-w-[224px] py-5 rounded-2xl border border-gray-100 hover:-translate-y-2 transition-transform cursor-pointer">
+                <div class="h-[150px] w-[150px] bg-cover bg-no-repeat rounded-full" style="background-image: url(/menu-application-layout/assets/menu6.59fba3db.jpg)"></div>
+                <span class="text-xl">Chips</span>
+                <span class="text-xs text-gray-400">100g</span>
+                <span class="text-2xl font-semibold text-amber-400">1.50€</span>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center space-y-2 shadow-xl  min-w-[224px] py-5 rounded-2xl border border-gray-100 hover:-translate-y-2 transition-transform cursor-pointer">
+                <div class="h-[150px] w-[150px] bg-cover bg-no-repeat rounded-full" style="background-image: url(/menu-application-layout/assets/menu3.63ab2598.jpg)"></div>
+                <span class="text-xl">Salmon</span>
+                <span class="text-xs text-gray-400">350g</span>
+                <span class="text-2xl font-semibold text-amber-400">9.90€</span>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center space-y-2 shadow-xl  min-w-[224px] py-5 rounded-2xl border border-gray-100 hover:-translate-y-2 transition-transform cursor-pointer">
+                <div class="h-[150px] w-[150px] bg-cover bg-no-repeat rounded-full" style="background-image: url(/menu-application-layout/assets/menu4.5dac4029.jpg)"></div>
+                <span class="text-xl">Cheeses</span>
+                <span class="text-xs text-gray-400">200g</span>
+                <span class="text-2xl font-semibold text-amber-400">3.70€</span>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center space-y-2 shadow-xl  min-w-[224px] py-5 rounded-2xl border border-gray-100 hover:-translate-y-2 transition-transform cursor-pointer">
+                <div class="h-[150px] w-[150px] bg-cover bg-no-repeat rounded-full" style="background-image: url(/menu-application-layout/assets/menu5.34099a4f.jpg)"></div>
+                <span class="text-xl">Vegetable brochette</span>
+                <span class="text-xs text-gray-400">100g</span>
+                <span class="text-2xl font-semibold text-amber-400">4.10€</span>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center space-y-2 shadow-xl  min-w-[224px] py-5 rounded-2xl border border-gray-100 hover:-translate-y-2 transition-transform cursor-pointer">
+                <div class="h-[150px] w-[150px] bg-cover bg-no-repeat rounded-full" style="background-image: url(/menu-application-layout/assets/menu1.73a78456.jpg)"></div>
+                <span class="text-xl">Chocolate biscuit</span>
+                <span class="text-xs text-gray-400">140g</span>
+                <span class="text-2xl font-semibold text-amber-400">5.00€</span>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center space-y-2 shadow-xl  min-w-[224px] py-5 rounded-2xl border border-gray-100 hover:-translate-y-2 transition-transform cursor-pointer">
+                <div class="h-[150px] w-[150px] bg-cover bg-no-repeat rounded-full" style="background-image: url(/menu-application-layout/assets/menu2.82d768d1.jpg)"></div>
+                <span class="text-xl">Creps</span>
+                <span class="text-xs text-gray-400">200g</span>
+                <span class="text-2xl font-semibold text-amber-400">6.50€</span>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div id="menuButton" class="fixed md:hidden bottom-10 right-10 rounded-xl bg-amber-400 p-3 cursor-pointer" onclick="openMobileMenu()">
+        <img class="text-white h-8 w-auto" src="/menu-application-layout/assets/menu.b2311b28.svg" alt="menu">
+      </div>
+    </div>
+    
+    <script src="./public/script/index.js"></script>
+  </body>
+</html>
